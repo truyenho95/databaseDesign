@@ -1,0 +1,1 @@
+[{"categoryID":1,"categoryName":"Loại 1"},{"categoryID":2,"categoryName":"Loại 2"},{"categoryID":3,"categoryName":"Loại 3"},{"categoryID":4,"categoryName":"Loại 4"},{"categoryID":5,"categoryName":"Loại 5"}]
