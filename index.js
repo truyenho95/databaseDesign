@@ -21,8 +21,8 @@ const readFilePromise = path => new Promise((resolve, reject) => {
 });
 
 async function loadData() {
-  const products = JSON.parse(await readFilePromise('./products.txt'));
-  const categories = JSON.parse(await readFilePromise('./categories.txt'));
+  const products = JSON.parse(await readFilePromise('./db/products.txt'));
+  const categories = JSON.parse(await readFilePromise('./db/categories.txt'));
   console.log(products, categories);
   return [products, categories];
 }
